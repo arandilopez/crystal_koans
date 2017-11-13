@@ -24,6 +24,6 @@ describe "Specs" do
 
   # Sometimes we will ask you to fill in the values
   it "should ask you to fill in value" do
-    __i(2).should eq 1 + 1
+    __(2).should eq 1 + 1
   end
 end
