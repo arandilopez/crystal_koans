@@ -1,10 +1,17 @@
-# crystal_koans
+# A WIP Crystal Koans
 
-TODO: Write a description here
+Crystal is a really amazing coding language. Crystal is all that I desire a language be. So, let's spread the knowledge and start learning about Crystal!
 
 ## Installation
 
-TODO: Write installation instructions here
+1. You should install [Crystal compiler](https://crystal-lang.org/docs/installation/) first
+2. Clone this repo:
+
+```
+git clone https://github.com/arandilopez/crystal_koans.git
+```
+
+TODO: Other instructions here
 
 ## Usage
 
