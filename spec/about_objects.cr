@@ -1,3 +1,6 @@
+class MyNewClass
+end
+
 describe "Objects" do
   context "everything is a object" do
     it "asserts" do
@@ -24,7 +27,7 @@ describe "Objects" do
     end
   end
 
-  describe "Values" do
+  describe "Value" do
     context "basic types are values" do
       it "asserts" do
         1.is_a?(Value).should eq __(true)
@@ -38,6 +41,12 @@ describe "Objects" do
   describe "Reference" do
     it "should be a object" do
       obj = Reference.new()
+      obj.is_a?(Object).should eq __(true)
+    end
+
+    context "any class extends from Reference" do
+      obj = MyNewClass.new
+      obj.is_a?(Reference).should eq __(true)
       obj.is_a?(Object).should eq __(true)
     end
 
