@@ -1,0 +1,13 @@
+name: crystal_koans
+version: 0.1.0
+
+authors:
+  - Arandi Lopez <arandilopez.93@gmail.com>
+
+targets:
+  crystal_koans:
+    main: src/crystal_koans.cr
+
+crystal: 0.23.1
+
+license: MIT
