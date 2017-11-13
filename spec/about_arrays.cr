@@ -1,17 +1,18 @@
 describe "Arrays" do
   context "creating arrays" do
-    it "should has a specific type" do
+    it "should has a specific type when creating a empty array" do
       # When creating an empty array you must always specify type
       empty_array = Array(Int32).new
       empty_array.is_a?(Array).should eq __(true)
       empty_array.size.should eq __(0)
-
+      # Another syntax of creating a new empty array
       another_empty_array = [] of Int32
       another_empty_array.is_a?(Array).should eq __(true)
       another_empty_array.size.should eq __(0)
     end
 
     it "may has a combinations of types" do
+      # Creating an array with default values
       array = [1, "hello", 'x']
       array.class.should eq ___(Array(Int32 | String | Char))
     end
