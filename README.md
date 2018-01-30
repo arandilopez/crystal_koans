@@ -1,5 +1,7 @@
 # A WIP Crystal Koans
 
+[![Build Status](https://www.travis-ci.org/arandilopez/crystal_koans.svg?branch=master)](https://www.travis-ci.org/arandilopez/crystal_koans)
+
 Crystal is a really amazing coding language. Crystal is all that I desire a language be. So, let's spread the knowledge and start learning about Crystal!
 
 This crystal koans are inspired on [edgecase/ruby_koans](http://rubykoans.com/), thank you so much.
