@@ -17,7 +17,7 @@ describe "Array assignment" do
 
     it "with parallel assign with few values raises an exception" do
       # Trying to assing something missing will raise an IndexError
-      expect_raises (IndexError) do
+      expect_raises IndexError do
         first_name, last_name = ["Cher"]
       end
     end

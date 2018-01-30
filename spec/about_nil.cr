@@ -25,7 +25,7 @@ describe "Nil" do
     # Tell the compiler that we are sure the returned
     # value is not nil: raises a runtime exception
     # if our assumption doesn't hold.
-    expect_raises do
+    expect_raises Exception, "Nil assertion failed" do
       idx = str.index('a').not_nil!
     end
 
